@@ -3,19 +3,21 @@ import serial
 import time
 import pyautogui as auto
 
-arduino = serial.Serial(port='COM8', baudrate=9600, timeout=0.1)
+arduino = serial.Serial(port='COM3', baudrate=9600, timeout=0.1)
 
 scrollspeed = 150
-sensitivity = 1/10
-step=0
+sensitivity = 1 / 10
+step = 0
+auto.FAILSAFE = False
+
 
 def move(data):
     xstring, ystring = data.split(" ")
-    x = (int(xstring) ) * sensitivity
-    y = (int(ystring)) * sensitivity *-1
+    x = (int(xstring)) * sensitivity
+    y = (int(ystring)) * sensitivity * -1
     print(auto.position())
-    print(x,y)
-    auto.move(x,y,0.1)
+    print(x, y)
+    auto.move(x, y, 0.01)
 
 
 def comp():
@@ -48,6 +50,6 @@ def comp():
         print("controller")
 
 
-while True:
-    comp()
-    # print(value)  # printing the value
+if __name__ == "__main__":
+    while True:
+        comp()
