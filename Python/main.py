@@ -3,7 +3,7 @@ import serial
 import time
 import pyautogui as auto
 
-arduino = serial.Serial(port='COM3', baudrate=9600, timeout=0.1)
+arduino = serial.Serial(port='COM6', baudrate=9600, timeout=0.1)
 
 scrollspeed = 150
 sensitivity = 1 / 10

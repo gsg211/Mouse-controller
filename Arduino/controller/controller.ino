@@ -6,8 +6,8 @@
 
 //joystick 
 #define sensPin 6
-#define xPin A0 //switched x and y pins because of preffered orientation
-#define yPin A1
+#define xPin A1 //switched x and y pins because of preffered orientation
+#define yPin A0
 
 int left = 0;  
 int right =0;
@@ -67,7 +67,7 @@ void loop() {
   }
   else if(abs(x)>100 || abs(y)>100 )
   {
-    Serial.print(x);
+    Serial.print(-x);
     Serial.print(" ");
     Serial.print(y);
     Serial.print("\n");
