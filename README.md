@@ -19,8 +19,10 @@ Refer to the following image for the breadboard wiring:
 ### PCB Setup
 For a more permanent build, you can use the provided PCB design:
 
-- **Schematic:** ![Schematic](Arduino/KicadSchematic.png)
-- **PCB Layout:** ![PCB Layout](Arduino/Pcb.png)
+- **Schematic:**
+  <img src="Arduino/Kicad Schematic.png" alt="pcb design schematic" width="whatever" height="whatever">
+- **PCB Layout:**
+  <img src="Arduino/Kicad Schematic.png" alt="pcb footprint design" width="whatever" height="whatever">
 
 ---
 
