@@ -14,13 +14,13 @@ This project is a simple mouse controller built using an Arduino and Python. The
 ### Breadboard Setup
 Refer to the following image for the breadboard wiring:
 
-**Image:** `arduino/Frietzing image.png`
+![Breadboard Setup](arduino/Frietzing image.png)
 
 ### PCB Setup
 For a more permanent build, you can use the provided PCB design:
 
-- **Schematic:** `arduino/Kicad Schematic.png`
-- **PCB Layout:** `arduino/Pcb.png`
+- **Schematic:** ![Schematic](arduino/Kicad Schematic.png)
+- **PCB Layout:** ![PCB Layout](arduino/Pcb.png)
 
 ---
 
@@ -34,7 +34,6 @@ Make sure you have the following Python libraries installed:
 ├──serial
 └──pyautogui as auto
 ```
-
 
 ### Running the Script
 1. Connect your Arduino to your computer.
@@ -53,10 +52,4 @@ python mouse_controller.py
 - It sends the data to the computer over the serial port.
 - The Python script reads this data and translates it into mouse actions using `pyautogui`.
 
-With this setup, you can build a variety of projects, like a gesture-based mouse, a custom gaming controller, or even accessibility tools!
-
-
-
 ---
-
-
