@@ -4,8 +4,10 @@ This project is a simple mouse controller built using an Arduino and Python. The
 
 ## Project Overview 🌟
 
+
 - **Arduino Part:** Handles sensor/button inputs and communicates with the computer via serial.
 - **Python Part:** Receives serial data from the Arduino and uses it to control the mouse with the `pyautogui` library.
+
 
 ---
 
