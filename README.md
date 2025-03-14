@@ -22,6 +22,23 @@ For a more permanent build, you can use the provided PCB design:
 - **Schematic:**
   <img src="Arduino/Kicad Schematic.png" alt="pcb design schematic" width="whatever" height="whatever">
 - **PCB Layout:**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <img src="Arduino/Pcb.png" alt="pcb footprint design" width="whatever" height="whatever">
 
 ---
