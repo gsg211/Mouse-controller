@@ -14,13 +14,13 @@ This project is a simple mouse controller built using an Arduino and Python. The
 ### Breadboard Setup
 Refer to the following image for the breadboard wiring:
 
-![Breadboard Setup](arduino/Frietzing image.png)
+![Breadboard Setup](Arduino/Frietzing image.png)
 
 ### PCB Setup
 For a more permanent build, you can use the provided PCB design:
 
-- **Schematic:** ![Schematic](arduino/Kicad Schematic.png)
-- **PCB Layout:** ![PCB Layout](arduino/Pcb.png)
+- **Schematic:** ![Schematic](Arduino/Kicad Schematic.png)
+- **PCB Layout:** ![PCB Layout](Arduino/Pcb.png)
 
 ---
 
