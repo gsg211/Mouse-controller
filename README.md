@@ -1,15 +1,15 @@
-# Mouse Controller with Arduino and Python
+# Mouse Controller with Arduino and Python 🖱️💻
 
 This project is a simple mouse controller built using an Arduino and Python. The Arduino reads input from sensors or buttons, and the Python script translates those inputs into mouse movements and actions on your computer.
 
-## Project Overview
+## Project Overview 🌟
 
 - **Arduino Part:** Handles sensor/button inputs and communicates with the computer via serial.
 - **Python Part:** Receives serial data from the Arduino and uses it to control the mouse with the `pyautogui` library.
 
 ---
 
-## Arduino Setup
+## Arduino Setup  🔧
 
 ### Breadboard Setup
 Refer to the following image for the breadboard wiring:
@@ -43,18 +43,18 @@ For a more permanent build, you can use the provided PCB design:
 
 ---
 
-## Python Setup
+## Python Setup 🐍
 
 ### Required Libraries
 Make sure you have the following Python libraries installed:
 
 ```
 # Libraries:
-├──serial
-└──pyautogui as auto
+├── pyserial
+└── pyautogui
 ```
 
-### Running the Script
+### Running the Script ▶️
 1. Connect your Arduino to your computer.
 2. Upload the appropriate sketch to the Arduino.
 3. Make sure to select the right serial port in the python script
